@@ -15,7 +15,7 @@ const form = new KancilComponent({
     state: todoStore.state,
     template: `
         <input type="text" placeholder="What is to do?" @input="input" />
-        <button @click="add">Tambah</button>
+        <button @click="add">Add</button>
       `,
     events: {
         'click@button': function () {
