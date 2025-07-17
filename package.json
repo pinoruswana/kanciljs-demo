@@ -3,9 +3,15 @@
     "version": "1.0.0",
     "description": "Demo Todo App untuk KancilJS",
     "scripts": {
-        "start": "serve ."
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "dependencies": {
-        "kanciljs": "github:pinoruswana/kanciljs"
+        "kanciljs": "^0.1.0"
+    },
+    "devDependencies": {
+        "vite": "^7.0.5"
     }
 }

@@ -1,4 +1,4 @@
-import { KancilComponent, KancilStore } from './node_modules/kanciljs/src/kancil.js';
+import { KancilComponent, KancilStore } from 'kanciljs';
 
 // Global store to store global states
 const todoStore = KancilStore(
