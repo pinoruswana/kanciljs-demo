@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kancil Todo App</title>
+        <style>
+            body {
+                font-family: 'Nunito', sans-serif;
+                padding: 2rem;
+                background: #f9f9f9;
+            }
+
+            h1 {
+                color: #0074d9;
+                margin-bottom: 1rem;
+            }
+
+            #todo-form {
+                margin-bottom: 1.5rem;
+            }
+
+            input[type='text'] {
+                padding: 0.5rem;
+                width: 250px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            button,
+            .btn-delete {
+                padding: 0.5rem 0.75rem;
+                margin-left: 0.5rem;
+                background-color: #0074d9;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 15px;
+            }
+
+            .btn-delete {
+                background-color: #eee;
+            }
+
+            button:hover {
+                background-color: #005fa3;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                background: #fff;
+                border: 1px solid #ddd;
+                padding: 0.7rem 1rem;
+                border-radius: 5px;
+                margin-bottom: 0.5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .empty {
+                font-style: italic;
+                color: #888;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Todo List 🐿️</h1>
+
+        <div id="todo-form"></div>
+        <div id="todo-list"></div>
+
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>

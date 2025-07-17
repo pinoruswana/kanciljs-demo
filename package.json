@@ -1,0 +1,11 @@
+{
+    "name": "kanciljs-demo",
+    "version": "1.0.0",
+    "description": "Demo Todo App untuk KancilJS",
+    "scripts": {
+        "start": "serve ."
+    },
+    "dependencies": {
+        "kanciljs": "github:pinoruswana/kanciljs"
+    }
+}
